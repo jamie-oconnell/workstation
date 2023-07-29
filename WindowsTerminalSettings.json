@@ -33,7 +33,7 @@
     "defaults": {
       "colorScheme": "One Half Dark (Modded)",
       "font": {
-        "face": "Hack NF"
+        "face": "FiraCode Nerd Font"
       },
       "opacity": 50,
       "useAcrylic": true
