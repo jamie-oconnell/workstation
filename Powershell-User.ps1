@@ -6,9 +6,6 @@ Install-Module -Name Az, VMware.PowerCLI, Microsoft.Graph, ExchangeOnlineManagem
 git config --global user.name "Jamie O'Connell"
 git config --global http.sslBackend schannel
 
-# Install WSL
-wsl --install -d Ubuntu-22.04
-
 # Install VS Code Extensions
 . .\VsCodeExtensions.ps1
 $Extensions | ForEach-Object { code --install-extension $_ }
